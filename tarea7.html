@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formulario tarea</title>
+
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="text-align: center; margin: 0 auto; width: 100%; background-color: #71B4F5;">
+	<header style="color: floralwhite;"><h1>Envianos tu consulta o sugerencia!</h1></header>
+	<nav class="nav-tabs" style="background-color: #DAEAF9;">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link-active" href="../clase 3/index3.html">volver a pagina principal</li>
+		</ul>
+	</nav>
+	<form action="pagina02.html" method="get">
+		<table border="2" style="color: darkblue; text-align: center; margin: 0 auto; background-color: #C6E1FA">
+			<tr>
+				<td>nombre</td>
+				<td><input type="text" name="nom" maxlength="15" required autofocus></td>
+			</tr>
+			<tr>
+				<td>correo</td>
+				<td><input type="email" name="mail"></td>
+			</tr>
+			<tr>
+				<td>consulta</td>
+				<td><textarea name="obj" rows="3" cols="40" maxlength="500">Escribe su consulta aquí</textarea> ></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="boton" value="enviar"></td>
+			</tr>
+			
+		</table>
+		
+	</form>
+
+</body>
+</html>
