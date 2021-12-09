@@ -8,6 +8,16 @@
 	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
 	<script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
+	<style type="text/css">
+		*{
+
+		}
+		@media screen and (max-width: 800px){
+			.imagen, .descripcion, .precio{
+				width: 100%;
+			}
+		}
+	</style>
 
 <body div style="background-color: #CFF2FB">
 	<header style= "text-align: center; color: white; background-color: #20BBE5"><img src="./img/logo.png" alt="avatar logo" style="width:40px; float: left;"></a><h1>Tienda Online</h1></header>
@@ -16,15 +26,15 @@
 			<li class="nav-item"><a class="nav-link-active" href="index.html">volver a pagina principal</a></li>
 		</ul>
 	</nav>
-	<div style="width:100%">
-		<div style="float: left; width: 30%;">
+	<div>
+		<div id="imagen" style="float: left; width: 30%;">
 			<img src="./img/camiseta.png">
 		</div>
-		<div style="float: left; width: 40%; padding: 40px; text-align: center;">
+		<div id="descripcion" style="float: left; width: 40%; padding: 40px; text-align: center;">
 			<p><h3>Camiseta local Universidad Catolica 2021-2022 adulto
 			tallas S - M - L - XL</h3></p>
 		</div>
-		<div style="float: left; width: 30%; padding: 40px; text-align: center;">
+		<div id="precio" style="float: left; width: 30%; padding: 40px; text-align: center;">
 			<p><h2>Precio</h2>
 			<h4> antes $59.990</h4>
 			<h3>oferta $39.990</h3></p>
