@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fomrulario registro socio</title>
+	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="text-align: center; margin: 0 auto; width: 100%; background-color: #71B4F5;">
+	<header style="color: floralwhite;"><h1>Registro de socios</h1></header>
+	<nav class="nav-tabs" style="background-color: #DAEAF9;">
+		<ul class="nav nav-tabs">
+			<li class="nav-item"><a class="nav-link-active" href="index.html">volver a pagina principal</a></li>
+		</ul>
+	</nav>
+	<form action="pagina02.html" method="get">
+		<table border="2">
+			<tr>
+				<td>Nombre</td>
+				<td><input type="text" name="nom"></td>
+			</tr>
+			<tr>
+				<td>Rut</td>
+				<td><input type="text" name="rut"></td>
+			</tr>
+			<tr>
+				<td>dirección</td>
+				<td><input type="text" name="direc"></td>
+			</tr>
+			<tr>
+				<td>e-mail</td>
+				<td><input type="email" name="mail"></td>
+			</tr>
+			<tr>
+				<td>fecha de nacimiento</td>
+				<td><input type="date" name="fecha"></td>
+			</tr>
+			<tr>
+				<td>sexo</td>
+				<td>
+					femenino<input type="radio" name="sexo" value="femenino">
+					masculino<input type="radio" name="sexo" value="masculino">
+					no informar<input type="radio" name="sexo" value="no informar">
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+
+</body>
+</html>
